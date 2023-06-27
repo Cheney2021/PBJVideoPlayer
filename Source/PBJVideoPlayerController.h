@@ -50,6 +50,7 @@ typedef NS_ENUM(NSInteger, PBJVideoPlayerBufferingState) {
 
 @property (nonatomic, copy) NSString *videoPath;
 @property (nonatomic, copy) AVAsset *asset;
+@property (nonatomic, copy) AVPlayer *player;
 
 @property (nonatomic, copy, setter=setVideoFillMode:) NSString *videoFillMode; // default, AVLayerVideoGravityResizeAspect
 

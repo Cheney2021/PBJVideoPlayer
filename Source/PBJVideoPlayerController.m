@@ -86,6 +86,7 @@ static NSString * const PBJVideoPlayerControllerReadyForDisplay = @"readyForDisp
 @synthesize playbackState = _playbackState;
 @synthesize bufferingState = _bufferingState;
 @synthesize videoFillMode = _videoFillMode;
+@synthesize player = _player;
 
 @dynamic muted;
 
